@@ -6,18 +6,6 @@ body {
   background-size: cover;
 }
 
-//gradient dla bg przed url
-// linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),
-h1{
-    // background: url('../images/logo_CMYKa.jpg');
-    // background-attachment: fixed;
-    // background-position: center;
-    // background-size: contain;
-    //
-    // background-repeat: no-repeat;
-    margin: 5px;
-}
-
 h1,
 h2,
 h3,
@@ -29,6 +17,14 @@ h6 {
 
 p {
   line-height: 1.75;
+}
+
+.nav-link{
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+}
+a:hover{
+    color:#8AC6C6 !important;
 }
 
 .text-faded {
@@ -75,4 +71,5 @@ p {
 
 .bg-faded {
   background-color: fade-out($white, 0.15);
+
 }

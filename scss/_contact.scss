@@ -1,5 +1,36 @@
 .container_contact {
   background-color: #FEB700;
-  opacity: 0.7;
+  opacity: 0.9;
   color: white;
+  font-size: 1.2rem;
 }
+
+.contact p{
+    color:$secondary;
+}
+
+.contact a{
+    color:$secondary;
+}
+
+.intro-button a{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 768px) {
+
+  .section-heading-lower{
+      font-size: 2rem !important;
+  }
+
+  .contact a{
+      font-size: 0.8rem;
+      margin-left: 0;
+  }
+}
+// @media (min-width: 1200px) {
+//   .intro-text {
+//     width: 25%;
+//   }
+// }

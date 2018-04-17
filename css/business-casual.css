@@ -7,10 +7,6 @@ body {
   background-size: cover;
 }
 
-h1 {
-  margin: 5px;
-}
-
 h1,
 h2,
 h3,
@@ -23,6 +19,15 @@ h6 {
 
 p {
   line-height: 1.75;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+}
+
+a:hover {
+  color: #8AC6C6 !important;
 }
 
 .text-faded {
@@ -217,14 +222,33 @@ p {
   }
 }
 
-.address strong {
+.container_contact {
+  background-color: #FEB700;
+  opacity: 0.9;
+  color: white;
   font-size: 1.2rem;
 }
 
-.container_contact {
-  background-color: #FEB700;
-  opacity: 0.7;
-  color: white;
+.contact p {
+  color: #7F7F7F;
+}
+
+.contact a {
+  color: #7F7F7F;
+}
+
+.intro-button a {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .section-heading-lower {
+    font-size: 2rem !important;
+  }
+  .contact a {
+    font-size: 0.8rem;
+    margin-left: 0;
+  }
 }
 
 .footer {
