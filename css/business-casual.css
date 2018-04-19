@@ -121,6 +121,11 @@ a:hover {
 }
 
 .icon {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.iconi {
   max-width: 45px;
   max-height: 45px;
 }
@@ -269,13 +274,13 @@ small {
 }
 
 .icon1 {
-  max-width: 65px;
-  max-height: 65px;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 .icon1a {
-  max-width: 60px;
-  max-height: 60px;
+  max-width: 65px;
+  max-height: 65px;
 }
 
 .footer {
