@@ -73,3 +73,17 @@ a:hover{
   background-color: fade-out($white, 0.15);
 
 }
+
+.top{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+    background-color:$primary;
+}
+
+@media (max-width: 768px) {
+    .top{
+        max-width: 45px;
+        max-height: 45px;
+    }
+}
