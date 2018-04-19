@@ -26,11 +26,16 @@
 
   .contact a{
       font-size: 0.8rem;
-      margin-left: 0;
+    //   margin-left: -30px;
   }
 }
-// @media (min-width: 1200px) {
-//   .intro-text {
-//     width: 25%;
-//   }
-// }
+
+.icon1{
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.icon1a{
+    max-width: 60px;
+    max-height: 60px;
+}
